@@ -8,7 +8,7 @@
 
    console.log(typeof "John") //String
    console.log(typeof 3.14) //Number
-   console.log(typeof NaN) //Number  --> the result of nodejs is undefined???
+   console.log(typeof NaN) //Number
    console.log(typeof false) //Boolean
    console.log(typeof [1,2,3,4]) //Object
    console.log(typeof {name: 'John', age: 34}) //Object
