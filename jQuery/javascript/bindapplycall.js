@@ -2,6 +2,7 @@
   1. call and apply are similar 
     call a function with a given value, and return the return value of that function
     differneces are call allows you to pass in arguments one by one, apply allows you to pass in arguments as an array
+    
   2. bind  
     bind return a new function allowing you to pass in a this array and any number of arguments.
     It's usually used when you want to pass a function to an event handler or other async callback
