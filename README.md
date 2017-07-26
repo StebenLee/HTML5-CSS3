@@ -8,4 +8,4 @@
 ## Javascript sources:  
 1.codecademy  
 2.MDN https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/A_re-introduction_to_JavaScript  
-3.Others refed in the docs
+3.The others are refed in the .js docs
