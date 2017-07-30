@@ -32,5 +32,5 @@ var add10 = makeAdder(10);
 console.log(add5(2));//retrun 7
 console.log(add10(2));//return 12
 console.log(add5(4));//return 9
-console.log(add5(2).x);
+console.log(add5(2).x);//undefined, because the scope is different
 //Closure is like object oriented programming. It make property and function have relationship
