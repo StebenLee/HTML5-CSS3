@@ -6,3 +6,5 @@ var name;
 
 // enumeration == forloop funciton
 // it's like  var a; for(a = 0; a< cache.length; a++){}
+
+

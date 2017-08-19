@@ -37,7 +37,9 @@ var memoizer = function (memo, fundamental) {
 var fibonacci = memoizer([0, 1], function (shell, n) {
   return shell(n - 1) + shell(n - 2);
 });
+
 var factorial = memoizer([1, 1], function (shell, n) {
   return n * shell(n - 1);
 });
+
 console.log(fibonacci(10));
