@@ -1,0 +1,46 @@
+.white, .black{
+    color: black;
+    height: 100%;
+}
+
+.orange .white {
+        background-color: rgba(255,255,255,0.4);
+}
+
+.red .black {
+        background-color: rgba(0,0,0,0.4);
+}
+
+.orange {
+    background-color: orange;
+}
+
+.orange.red {
+    background-color: orange;
+    color: red;
+}
+
+.red {
+    background-color: red;
+}
+/*reference https://pjchender.blogspot.tw/2015/03/cssmultiple-selectorsspace.html*/
+/* CSS For Decoration */
+html, body{
+    background-color: #2C5D63;
+    font-family: "微軟正黑體";
+    color: #DFEBED;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid #DFEBED;
+    border-radius: 5px;
+    text-align: center;
+}
